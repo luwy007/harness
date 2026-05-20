@@ -1,0 +1,7 @@
+interface:
+  display_name: "Cost Planner"
+  short_description: "Estimate Codex task time and token cost"
+  default_prompt: "Use $cost-planner to estimate time, token cost, and execution modes before starting this Codex task."
+
+policy:
+  allow_implicit_invocation: true
