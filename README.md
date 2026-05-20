@@ -1,10 +1,10 @@
 # Harness Agent
 
-一个 Claude Code 自定义技能（skill）集合，通过 harness 机制扩展 Claude Code 的能力。
+一个通用 AI agent 技能（skill）集合，通过 harness 机制为不同的 AI agent 平台扩展能力。
 
 ## 简介
 
-Claude Code harness 在运行时加载本仓库中的 skill，用户可以通过斜杠命令（`/skill-name`）手动触发，也可以由 harness 根据上下文自动调用。
+本仓库以结构化的方式维护可复用的 agent skill。每个 skill 描述一段独立的行为规范，可被支持 harness 协议的 agent 平台加载并调用——手动触发或由平台根据上下文自动调用。
 
 ## 技能列表
 
@@ -54,7 +54,7 @@ Claude Code harness 在运行时加载本仓库中的 skill，用户可以通过
 
 ## 使用方式
 
-将本仓库路径配置到 Claude Code harness 的 skills 目录后，重启 Claude Code 即可生效。技能加载后：
+将本仓库路径配置到目标 agent 平台的 skills 目录后重启即可生效。技能加载后：
 
 - **手动触发**：在对话中输入 `/<skill-name>`
 - **自动触发**：harness 根据 `SKILL.md` 中的 `description` 字段匹配上下文，自动调用相关技能
