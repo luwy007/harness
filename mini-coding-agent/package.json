@@ -1,0 +1,10 @@
+{
+  "name": "mini-coding-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node src/index.js --template examples/calculator --workspace .agent-runs/calculator --task \"fix the failing tests\"",
+    "test": "node --test test/*.test.js"
+  }
+}
