@@ -35,7 +35,7 @@
 将本仓库克隆到本地：
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/harness-agent.git
+git clone git@github.com:luwy007/harness.git
 ```
 
 ### 第二步：配置 Claude Code
@@ -117,4 +117,4 @@ Claude：好的，开始重构...
 | `README.md` | 本文档 |
 
 ## 预估逻辑
-- 注意：自动触发并不是 100% 可靠，因为 skill 触发依赖 Claude 的主动判断。如果想让每次任务都强制预估，更可靠的方式是设置 hook——需要的话我可以用 /update-config 来配置一个 pre-tool hook。
+- 注意：自动触发并不是 100% 可靠，因为 skill 触发依赖 Claude 的主动判断。
