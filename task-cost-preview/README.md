@@ -1,7 +1,8 @@
 # Task Cost Preview
 
 在执行任何任务前，自动估算本次任务的 token 消耗、耗时和 USD 费用，并等待用户确认后再继续。
-<video controls src="../resources/task-cost-preview.mp4" title="Title"></video>
+
+<video controls src="https://github.com/user-attachments/assets/19142218-640d-4580-a0c6-c30e2408538b" title="Task Cost Preview"></video>
 
 ## 效果预览
 
